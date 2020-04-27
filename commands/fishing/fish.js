@@ -1,7 +1,7 @@
 // This is how you require other files.
 const Fishes = require('../../fishes.json');
 // This is for Embeds to make things look fancier.
-const { RichEmbed } = require('discord.js')
+const { MessageEmbed } = require('discord.js')
 module.exports = {
     name: 'fish',
     category: 'Fishing',
@@ -26,7 +26,7 @@ module.exports = {
 
                         for (let j = 1; j < 20; ++j) {
                             if (CommonID === FishInfo[j].PrimeID) {
-                                message.channel.send(new RichEmbed()
+                                message.channel.send(new MessageEmbed()
                                     .setColor("#f6f6f6")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
@@ -43,7 +43,7 @@ module.exports = {
 
                         for (let j = 21; j < 40; ++j) {
                             if (UncommonID === FishInfo[j].PrimeID) {
-                                message.channel.send(new RichEmbed()
+                                message.channel.send(new MessageEmbed()
                                     .setColor("GREEN")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
@@ -60,7 +60,7 @@ module.exports = {
 
                         for (let j = 41; j < 60; ++j) {
                             if (RareID === FishInfo[j].PrimeID) {
-                                message.channel.send(new RichEmbed()
+                                message.channel.send(new MessageEmbed()
                                     .setColor("BLUE")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
@@ -77,7 +77,7 @@ module.exports = {
 
                         for (let j = 61; j < 80; ++j) {
                             if (UniqueID === FishInfo[j].PrimeID) {
-                                message.channel.send(new RichEmbed()
+                                message.channel.send(new MessageEmbed()
                                     .setColor("#ffc0cb")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
@@ -94,7 +94,7 @@ module.exports = {
 
                         for (let j = 81; j < 110; ++j) {
                             if (EpicID === FishInfo[j].PrimeID) {
-                                message.channel.send(new RichEmbed()
+                                message.channel.send(new MessageEmbed()
                                     .setColor("PURPLE")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
@@ -111,7 +111,7 @@ module.exports = {
 
                         for (let j = 101; j < 120; ++j) {
                             if (WickedID === FishInfo[j].PrimeID) {
-                                message.channel.send(new RichEmbed()
+                                message.channel.send(new MessageEmbed()
                                     .setColor("RED")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
@@ -128,7 +128,7 @@ module.exports = {
 
                         for (let j = 121; j < 140; ++j) {
                             if (LegendaryID === FishInfo[j].PrimeID) {
-                                message.channel.send(new RichEmbed()
+                                message.channel.send(new MessageEmbed()
                                     .setColor("YELLOW")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
@@ -145,7 +145,7 @@ module.exports = {
 
                         for (let j = 141; j < 160; ++j) {
                             if (MythicalID === FishInfo[j].PrimeID) {
-                                message.channel.send(new RichEmbed()
+                                message.channel.send(new MessageEmbed()
                                     .setColor("ORANGE")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
