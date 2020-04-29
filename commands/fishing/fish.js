@@ -24,7 +24,7 @@ module.exports = {
                     if (Rarity > 0 && Rarity < 86) {
                         var CommonID = randomNumber(1, 20);
 
-                        for (let j = 1; j < 20; ++j) {
+                        for (let j = 0; j < 20; ++j) {
                             if (CommonID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
                                     .setColor("#f6f6f6")
