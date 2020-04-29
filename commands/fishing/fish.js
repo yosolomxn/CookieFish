@@ -18,7 +18,7 @@ module.exports = {
         try {
             if (amount && amount <= 10) {
                 for (let i = 0; i < amount; i++) {
-                    var Rarity = randomNumber(1, 100);
+                    var Rarity = randomNumber(1, 200);
 
                     // Common Fish Loop with a range of 1-85 (%)
                     if (Rarity > 0 && Rarity < 86) {
