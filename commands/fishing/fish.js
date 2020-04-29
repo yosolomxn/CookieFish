@@ -20,8 +20,8 @@ module.exports = {
                 for (let i = 0; i < amount; i++) {
                     var Rarity = randomNumber(1, 100);
 
-                    // Common Fish Loop with a range of 1-42 (42%)
-                    if (Rarity > 0 && Rarity < 43) {
+                    // Common Fish Loop with a range of 1-85 (%)
+                    if (Rarity > 0 && Rarity < 86) {
                         var CommonID = randomNumber(1, 20);
 
                         for (let j = 1; j < 20; ++j) {
@@ -37,8 +37,8 @@ module.exports = {
                         }
                     }
 
-                    // Uncommon Fish Loop with a range of 43-68 (25%)
-                    if (Rarity > 42 && Rarity < 69) {
+                    // Uncommon Fish Loop with a range of 86-134 (%)
+                    if (Rarity > 85 && Rarity < 135) {
                         var UncommonID = randomNumber(21, 20);
 
                         for (let j = 21; j < 40; ++j) {
@@ -54,8 +54,8 @@ module.exports = {
                         }
                     }
 
-                    // Rare Fish Loop with a range of 69-80 (12%)
-                    if (Rarity > 68 && Rarity < 81) {
+                    // Rare Fish Loop with a range of 135-160 (%)
+                    if (Rarity > 134 && Rarity < 161) {
                         var RareID = randomNumber(41, 20);
 
                         for (let j = 41; j < 60; ++j) {
@@ -71,8 +71,8 @@ module.exports = {
                         }
                     }
 
-                    // Unique Fish Loop with a range of 81-88 (9%)
-                    if (Rarity > 80 && Rarity < 89) {
+                    // Unique Fish Loop with a range of 161-180 (%)
+                    if (Rarity > 160 && Rarity < 181) {
                         var UniqueID = randomNumber(61, 20);
 
                         for (let j = 61; j < 80; ++j) {
@@ -88,8 +88,8 @@ module.exports = {
                         }
                     }
 
-                    // Epic Fish Loop with a range of 89-94 (6%)
-                    if (Rarity > 88 && Rarity < 95) {
+                    // Epic Fish Loop with a range of 181-191 (%)
+                    if (Rarity > 180 && Rarity < 192) {
                         var EpicID = randomNumber(81, 20);
 
                         for (let j = 81; j < 110; ++j) {
@@ -105,8 +105,8 @@ module.exports = {
                         }
                     }
 
-                    // Wicked Fish Loop with a range of 95-97 (3%)
-                    if (Rarity > 94 && Rarity < 98) {
+                    // Wicked Fish Loop with a range of 192-197 (%)
+                    if (Rarity > 191 && Rarity < 198) {
                         var WickedID = randomNumber(101, 20);
 
                         for (let j = 101; j < 120; ++j) {
@@ -122,8 +122,8 @@ module.exports = {
                         }
                     }
 
-                    // Legendary Fish Loop with a range of 98-99 (2%)
-                    if (Rarity > 97 && Rarity < 100) {
+                    // Legendary Fish Loop with a range of 198-199 (%)
+                    if (Rarity > 197 && Rarity < 200) {
                         var LegendaryID = randomNumber(121, 20);
 
                         for (let j = 121; j < 140; ++j) {
@@ -139,8 +139,8 @@ module.exports = {
                         }
                     }
 
-                    // Mythical Fish Loop with a range of 100 (1%)
-                    if (Rarity == 100) {
+                    // Mythical Fish Loop with a range of 200 (1%)
+                    if (Rarity == 200) {
                         var MythicalID = randomNumber(141, 20);
 
                         for (let j = 141; j < 160; ++j) {
