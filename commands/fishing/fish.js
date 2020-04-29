@@ -78,7 +78,7 @@ module.exports = {
                         for (let j = 61; j < 80; ++j) {
                             if (UniqueID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
-                                    .setColor("#ffc0cb")
+                                    .setColor("#FFFF00")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
@@ -95,7 +95,7 @@ module.exports = {
                         for (let j = 81; j < 110; ++j) {
                             if (EpicID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
-                                    .setColor("PURPLE")
+                                    .setColor("#FF8C00")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
@@ -112,7 +112,7 @@ module.exports = {
                         for (let j = 101; j < 120; ++j) {
                             if (WickedID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
-                                    .setColor("RED")
+                                    .setColor("#FF0000")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
@@ -129,7 +129,7 @@ module.exports = {
                         for (let j = 121; j < 140; ++j) {
                             if (LegendaryID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
-                                    .setColor("YELLOW")
+                                    .setColor("#9400D3")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
@@ -146,7 +146,7 @@ module.exports = {
                         for (let j = 141; j < 160; ++j) {
                             if (MythicalID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
-                                    .setColor("ORANGE")
+                                    .setColor("#008080")
                                     .setDescription(`
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
