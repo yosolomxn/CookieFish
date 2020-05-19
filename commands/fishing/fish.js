@@ -19,11 +19,12 @@ module.exports = {
             if (amount && amount <= 10) {
                 for (let i = 0; i < amount; i++) {
                     var Rarity = randomNumber(1, 200);
-                    var Counter = 0;
+
 
                     // Common Fish Loop with a range of 1-85 (42.5%)
                     if (Rarity > 0 && Rarity < 86) {
                         var CommonID = randomNumber(1, 20);
+                        var CommonCntr = 0;
 
                         for (let j = 0; j < 20; ++j) {
                             if (CommonID === FishInfo[j].PrimeID) {
@@ -34,16 +35,17 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${Counter}
+                            **ID**: ${CommonCntr}
                             **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
-                            Counter++;
+                            CommonCntr++;
                         }
                     }
 
                     // Uncommon Fish Loop with a range of 86-139 (25%)
                     if (Rarity > 85 && Rarity < 140) {
                         var UncommonID = randomNumber(21, 20);
+                        var UncommonCntr = 0;
 
                         for (let j = 21; j < 40; ++j) {
                             if (UncommonID === FishInfo[j].PrimeID) {
@@ -54,16 +56,17 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${Counter}
+                            **ID**: ${UncommonCntr}
                             **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
-                            Counter++;
+                            UncommonCntr++;
                         }
                     }
 
                     // Rare Fish Loop with a range of 140-165 (12.5%)
                     if (Rarity > 139 && Rarity < 166) {
                         var RareID = randomNumber(41, 20);
+                        var RareCntr = 0;
 
                         for (let j = 41; j < 60; ++j) {
                             if (RareID === FishInfo[j].PrimeID) {
@@ -74,16 +77,17 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${Counter}
+                            **ID**: ${RareCntr}
                             **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
-                            Counter++;
+                            RareCntr++;
                         }
                     }
 
                     // Unique Fish Loop with a range of 166-182 (8.5%)
                     if (Rarity > 165 && Rarity < 183) {
                         var UniqueID = randomNumber(61, 20);
+                        var UniqueCntr = 0;
 
                         for (let j = 61; j < 80; ++j) {
                             if (UniqueID === FishInfo[j].PrimeID) {
@@ -94,16 +98,17 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${Counter}
+                            **ID**: ${UniqueCntr}
                             **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
-                            Counter++;
+                            UniqueCntr++;
                         }
                     }
 
                     // Epic Fish Loop with a range of 183-192 (5%)
                     if (Rarity > 182 && Rarity < 193) {
                         var EpicID = randomNumber(81, 20);
+                        var EpicCntr = 0;
 
                         for (let j = 81; j < 110; ++j) {
                             if (EpicID === FishInfo[j].PrimeID) {
@@ -114,16 +119,17 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${Counter}
+                            **ID**: ${EpicCntr}
                             **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
-                            Counter++;
+                            EpicCntr++;
                         }
                     }
 
                     // Wicked Fish Loop with a range of 193-197 (2.5%)
                     if (Rarity > 192 && Rarity < 198) {
                         var WickedID = randomNumber(101, 20);
+                        var WickedCntr = 0;
 
                         for (let j = 101; j < 120; ++j) {
                             if (WickedID === FishInfo[j].PrimeID) {
@@ -134,16 +140,17 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${Counter}
+                            **ID**: ${WickedCntr}
                             **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
-                            Counter++;
+                            WickedCntr++;
                         }
                     }
 
                     // Legendary Fish Loop with a range of 198-199 (%)
                     if (Rarity > 197 && Rarity < 200) {
                         var LegendaryID = randomNumber(121, 20);
+                        var LegendCntr = 0;
 
                         for (let j = 121; j < 140; ++j) {
                             if (LegendaryID === FishInfo[j].PrimeID) {
@@ -154,16 +161,17 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${Counter}
+                            **ID**: ${LegendCntr}
                             **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
-                            Counter++;
+                            LegendCntr++;
                         }
                     }
 
                     // Mythical Fish Loop with a range of 200 (1%)
                     if (Rarity == 200) {
                         var MythicalID = randomNumber(141, 20);
+                        var MythicalCntr = 0;
 
                         for (let j = 141; j < 160; ++j) {
                             if (MythicalID === FishInfo[j].PrimeID) {
@@ -174,10 +182,10 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${Counter}
+                            **ID**: ${MythicalCntr}
                             **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
-                            Counter++;
+                            MythicalCntr++;
                         }
                     }
 
