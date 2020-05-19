@@ -19,6 +19,7 @@ module.exports = {
             if (amount && amount <= 10) {
                 for (let i = 0; i < amount; i++) {
                     var Rarity = randomNumber(1, 200);
+                    var Counter = 0;
 
                     // Common Fish Loop with a range of 1-85 (42.5%)
                     if (Rarity > 0 && Rarity < 86) {
@@ -33,9 +34,10 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${CommonID}
-                            **Prime ID: ${FishInfo[j].PrimeID}`))
+                            **ID**: ${Counter}
+                            **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
+                            Counter++;
                         }
                     }
 
@@ -52,9 +54,10 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${UncommonID}
-                            **Prime ID: ${FishInfo[j].PrimeID}`))
+                            **ID**: ${Counter}
+                            **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
+                            Counter++;
                         }
                     }
 
@@ -71,9 +74,10 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${RareID}
-                            **Prime ID: ${FishInfo[j].PrimeID}`))
+                            **ID**: ${Counter}
+                            **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
+                            Counter++;
                         }
                     }
 
@@ -90,9 +94,10 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${UniqueID}
-                            **Prime ID: ${FishInfo[j].PrimeID}`))
+                            **ID**: ${Counter}
+                            **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
+                            Counter++;
                         }
                     }
 
@@ -109,9 +114,10 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${EpicID}
-                            **Prime ID: ${FishInfo[j].PrimeID}`))
+                            **ID**: ${Counter}
+                            **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
+                            Counter++;
                         }
                     }
 
@@ -128,9 +134,10 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${WickedID}
-                            **Prime ID: ${FishInfo[j].PrimeID}`))
+                            **ID**: ${Counter}
+                            **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
+                            Counter++;
                         }
                     }
 
@@ -147,9 +154,10 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${LegendaryID}
-                            **Prime ID: ${FishInfo[j].PrimeID}`))
+                            **ID**: ${Counter}
+                            **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
+                            Counter++;
                         }
                     }
 
@@ -166,9 +174,10 @@ module.exports = {
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
                             **Requirement**: ${FishInfo[j].Requirement}
-                            **ID**: ${MythicalID}
-                            **Prime ID: ${FishInfo[j].PrimeID}`))
+                            **ID**: ${Counter}
+                            **Prime ID**: ${FishInfo[j].PrimeID}`))
                             }
+                            Counter++;
                         }
                     }
 
