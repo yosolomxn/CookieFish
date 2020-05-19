@@ -32,7 +32,9 @@ module.exports = {
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
-                            **Requirement**: ${FishInfo[j].Requirement}`))
+                            **Requirement**: ${FishInfo[j].Requirement}
+                            **ID**: ${CommonID}
+                            **Prime ID: ${FishInfo[j].PrimeID}`))
                             }
                         }
                     }
@@ -49,7 +51,9 @@ module.exports = {
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
-                            **Requirement**: ${FishInfo[j].Requirement}`))
+                            **Requirement**: ${FishInfo[j].Requirement}
+                            **ID**: ${UncommonID}
+                            **Prime ID: ${FishInfo[j].PrimeID}`))
                             }
                         }
                     }
@@ -66,7 +70,9 @@ module.exports = {
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
-                            **Requirement**: ${FishInfo[j].Requirement}`))
+                            **Requirement**: ${FishInfo[j].Requirement}
+                            **ID**: ${RareID}
+                            **Prime ID: ${FishInfo[j].PrimeID}`))
                             }
                         }
                     }
@@ -83,7 +89,9 @@ module.exports = {
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
-                            **Requirement**: ${FishInfo[j].Requirement}`))
+                            **Requirement**: ${FishInfo[j].Requirement}
+                            **ID**: ${UniqueID}
+                            **Prime ID: ${FishInfo[j].PrimeID}`))
                             }
                         }
                     }
@@ -100,7 +108,9 @@ module.exports = {
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
-                            **Requirement**: ${FishInfo[j].Requirement}`))
+                            **Requirement**: ${FishInfo[j].Requirement}
+                            **ID**: ${EpicID}
+                            **Prime ID: ${FishInfo[j].PrimeID}`))
                             }
                         }
                     }
@@ -117,7 +127,9 @@ module.exports = {
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
-                            **Requirement**: ${FishInfo[j].Requirement}`))
+                            **Requirement**: ${FishInfo[j].Requirement}
+                            **ID**: ${WickedID}
+                            **Prime ID: ${FishInfo[j].PrimeID}`))
                             }
                         }
                     }
@@ -134,7 +146,9 @@ module.exports = {
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
-                            **Requirement**: ${FishInfo[j].Requirement}`))
+                            **Requirement**: ${FishInfo[j].Requirement}
+                            **ID**: ${LegendaryID}
+                            **Prime ID: ${FishInfo[j].PrimeID}`))
                             }
                         }
                     }
@@ -151,7 +165,9 @@ module.exports = {
                             **Name**: ${FishInfo[j].Name}
                             **Rarity**: ${FishInfo[j].Rarity}
                             **Difficulty**: ${FishInfo[j].Difficulty}
-                            **Requirement**: ${FishInfo[j].Requirement}`))
+                            **Requirement**: ${FishInfo[j].Requirement}
+                            **ID**: ${MythicalID}
+                            **Prime ID: ${FishInfo[j].PrimeID}`))
                             }
                         }
                     }
