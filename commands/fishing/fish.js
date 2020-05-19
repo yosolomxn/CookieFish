@@ -47,7 +47,7 @@ module.exports = {
                         var UncommonID = randomNumber(21, 20);
                         var UncommonCntr = 1;
 
-                        for (let j = 21; j < 40; ++j) {
+                        for (let j = 20; j < 40; ++j) {
                             if (UncommonID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
                                     .setColor("GREEN")
@@ -68,7 +68,7 @@ module.exports = {
                         var RareID = randomNumber(41, 20);
                         var RareCntr = 1;
 
-                        for (let j = 41; j < 60; ++j) {
+                        for (let j = 40; j < 60; ++j) {
                             if (RareID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
                                     .setColor("BLUE")
@@ -89,7 +89,7 @@ module.exports = {
                         var UniqueID = randomNumber(61, 20);
                         var UniqueCntr = 1;
 
-                        for (let j = 61; j < 80; ++j) {
+                        for (let j = 60; j < 80; ++j) {
                             if (UniqueID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
                                     .setColor("#FFFF00")
@@ -110,7 +110,7 @@ module.exports = {
                         var EpicID = randomNumber(81, 20);
                         var EpicCntr = 1;
 
-                        for (let j = 81; j < 110; ++j) {
+                        for (let j = 80; j < 110; ++j) {
                             if (EpicID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
                                     .setColor("#FF8C00")
@@ -131,7 +131,7 @@ module.exports = {
                         var WickedID = randomNumber(101, 20);
                         var WickedCntr = 1;
 
-                        for (let j = 101; j < 120; ++j) {
+                        for (let j = 100; j < 120; ++j) {
                             if (WickedID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
                                     .setColor("#FF0000")
@@ -152,7 +152,7 @@ module.exports = {
                         var LegendaryID = randomNumber(121, 20);
                         var LegendCntr = 1;
 
-                        for (let j = 121; j < 140; ++j) {
+                        for (let j = 120; j < 140; ++j) {
                             if (LegendaryID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
                                     .setColor("#9400D3")
@@ -173,7 +173,7 @@ module.exports = {
                         var MythicalID = randomNumber(141, 20);
                         var MythicalCntr = 1;
 
-                        for (let j = 141; j < 160; ++j) {
+                        for (let j = 140; j < 160; ++j) {
                             if (MythicalID === FishInfo[j].PrimeID) {
                                 message.channel.send(new MessageEmbed()
                                     .setColor("#008080")
