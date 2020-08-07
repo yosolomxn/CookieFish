@@ -7,13 +7,13 @@ module.exports = {
     {  // Sets max range of random roll to 10
        if (args[0] && args[0] === '+roll10')
        {
-          var roll = randomNumber(1, 10);
+          let roll = randomNumber(1, 10);
           return message.channel.send(`Roll: ${roll}`);
        } else return message.channel.send("Sorry can you type that again!");
        // Sets max range of random roll to 20
        if (args[0] && args[0] === '+roll20')
        {
-          var roll = randomNumber(1, 20);
+          let roll = randomNumber(1, 20);
           return message.channel.send(`Roll: ${roll}`);
        } else return message.channel.send("Sorry can you type that again!");
        // Chip pats user for affection
@@ -29,7 +29,7 @@ module.exports = {
        // Chip kisses user for affection
        if (args[0] && args[0] === '+kiss')
        {
-          return message.channel.send(`Chip kisses you on the cheeck!`);         
+          return message.channel.send(`Chip kisses you on the cheeck!`);
        } else return message.channel.send("Sorry can you type that again!");
     }
 }
