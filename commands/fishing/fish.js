@@ -16,10 +16,16 @@ module.exports = {
         if (amount < 0) return message.reply("Yes you can fish negative times..")
 
         try {
-            if (amount && amount <= 10) {
+          
+          if (amount && amount == 10) {
+            var Roll = randomNumber(1, 10);
+            message.channel.send(new MessageEmbed()
+                .setDescription(`**Roll**: ${Roll}`))
+          }
+
+            if (amount && amount < 10) {
                 for (let i = 0; i < amount; i++) {
                     var Rarity = randomNumber(1, 200);
-
 
                     // Common Fish Loop with a range of 1-85 (42.5%)
                     if (Rarity > 0 && Rarity < 86) {
