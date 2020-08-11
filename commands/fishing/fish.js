@@ -16,11 +16,12 @@ module.exports = {
         if (amount < 0) return message.reply("Yes you can fish negative times..")
 
         try {
-          
+        /*
           if (amount && amount == 10) {
             var Roll = randomNumber(1, 10);
             message.channel.send(new MessageEmbed()
                 .setDescription(`**Roll**: ${Roll}`))
+          */
           }
 
             if (amount && amount < 10) {

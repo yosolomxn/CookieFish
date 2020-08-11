@@ -5,6 +5,7 @@ module.exports = {
     description: 'Handles general functions of old KawaiiBot',
     run: async (bot, message, args) =>
     {
+      /*
       let roll = parseInt(args[0]);
       if(!amount) return message.reply('Please enter the range of your roll');
       if(amount > 20) return message.reply('You can only roll up to 20 max')
@@ -17,13 +18,7 @@ module.exports = {
               .setDescription(`**Roll**: ${Roll}`))
         }
       }
-
-
-
-
-
-
-      /*
+      */
       // Sets max range of random roll to 10
        if (args[0] && args[0] === '+roll10')
        {
@@ -51,6 +46,5 @@ module.exports = {
        {
           return message.channel.send(`Chip kisses you on the cheeck!`);
        } else return message.channel.send("Sorry can you type that again!");
-       */
-    }
+     }
 }
